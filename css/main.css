@@ -1,0 +1,19 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --bluish-green: #19717d;
+  --dark-gray: #272727;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

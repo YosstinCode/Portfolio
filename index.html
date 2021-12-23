@@ -1,18 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YosstinCode</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css" />
     <script src="./javascript/main.js" defer></script>
     <!--Font montserrat-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img class="logo" src="assets/YosstinCode.png" alt="yosstincode logo" />
+        <ul class="list mobile--hidden">
+          <li class="list__item">
+            <a class="item__link item__link--active" href="#">Home</a>
+          </li>
+          <li class="list__item">
+            <a class="item__link" href="#">Projects</a>
+          </li>
+          <li class="list__item"><a class="item__link" href="#">About</a></li>
+        </ul>
+        <img class="bars desktop--hidden" src="assets/bars.png" alt="menu" />
+      </nav>
+    </header>
+    <main class="main">
+      <div class="main__titles">
+        <h1 class="name">Yosstin S. Castillo R.</h1>
+        <h2 class="job">Frontend developer</h2>
+      </div>
+      <div class="main__info">
+        <img class="profile" src="./assets/Profile.png" alt="yosstin foto" />
+        <p class="description">
+          i’m a young colombian loved of the tecnologies, if you want a beutiful
+          website that work wich dreaming, I can help you.
+        </p>
+      </div>
+    </main>
+
+    <picture>
+      <source
+        srcset="./assets/wave/Wave-desktop.png"
+        media="(min-width: 1024px)"
+      />
+      <source
+        srcset="./assets/wave/Wave-tablet.png"
+        media="(min-width: 768px)"
+      />
+      <img class="wave" src="./assets/wave/Wave.png" alt="wave" />
+    </picture>
+  </body>
 </html>
